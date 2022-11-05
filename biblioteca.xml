@@ -19,7 +19,7 @@
         <editorial>Addison-Wesley</editorial>
         <precio>65.95</precio>
     </libro>
-    <libro codigo="ITA" anyo="2000">
+    <libro codigo="ITA" anyo="2001">
         <titulo>Data on the Web</titulo>
         <autor identificacion="1039701773">
             <nombre>Serge</nombre>

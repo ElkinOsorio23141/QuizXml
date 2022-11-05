@@ -1,7 +1,7 @@
 <!ELEMENT bib (libro*)>
         <!ATTLIST bib  nombre CDATA #REQUIRED
                        centro CDATA #REQUIRED>
-        <!ATTLIST libro codigo (ESP| FRA|ITA|ALE) "ESP">
+        <!ATTLIST libro codigo (ESP| FRA|ITA|ALE ) "ESP">
         <!ATTLIST libro anyo CDATA #REQUIRED>
 <!ELEMENT libro (titulo, autor, editorial, precio)>
         <!ELEMENT titulo (#PCDATA)>
