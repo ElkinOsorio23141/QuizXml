@@ -1,0 +1,17 @@
+<!ELEMENT bib (libro*)>
+        <!ATTLIST bib  nombre CDATA #REQUIRED
+                       centro CDATA #REQUIRED>
+        <!ATTLIST libro codigo (ESP| FRA|ITA|ALE) "ESP">
+        <!ATTLIST libro anyo CDATA #REQUIRED>
+<!ELEMENT libro (titulo, autor, editorial, precio)>
+        <!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre, apellido)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellido (#PCDATA)>
+        <!ATTLIST autor identificacion CDATA #REQUIRED>
+        <!ATTLIST autor foto CDATA #IMPLIED>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+
+

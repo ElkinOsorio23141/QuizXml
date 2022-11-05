@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bib SYSTEM "biblioteca.dtd">
+<bib nombre="Tomás Carrasquilla" centro="poblado">
+    <libro codigo="ESP"  anyo="1994">
+        <titulo>TCP/IP Illustrated</titulo>
+        <autor identificacion="1020">
+            <nombre>W.</nombre>
+            <apellido>stevens</apellido>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro codigo="FRA" anyo="1992">
+        <titulo>Advanced Programming for Unix environment</titulo>
+        <autor identificacion="1039701773">
+            <nombre>W.</nombre>
+            <apellido>stevens</apellido>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro codigo="ITA" anyo="2000">
+        <titulo>Data on the Web</titulo>
+        <autor identificacion="1039701773">
+            <nombre>Serge</nombre>
+            <apellido>abiteboul</apellido>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>
+    <libro codigo="ALE" anyo="1999">
+        <titulo> Economics of Technology for Digital TV</titulo>
+        <autor identificacion="1039701773">
+            <nombre>Darcy</nombre>
+            <apellido>gerbarg</apellido>
+        </autor>
+        <editorial>Kluwer Academic editorials</editorial>
+        <precio>129.95</precio>
+    </libro>
+</bib>
